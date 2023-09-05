@@ -1,0 +1,13 @@
+0000.000 (1) Opened log file at time: Thu, 23 Mar 2023 21:27:28 +0000 on https://www.tackle.auction
+0000.000 (1) PHP event: code E_NOTICE: Undefined variable: _SESSION (line 450, wp-content/themes/AT10/framework/new_class/ppt_core.php)
+0000.072 (1) PHP event: code E_NOTICE: Undefined variable: _SESSION (line 450, wp-content/themes/AT10/framework/new_class/ppt_core.php)
+0000.113 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.3 WP: 6.1.1 PHP: 7.4.32 (fpm-fcgi, Linux 963658.cloudwaysapps.com 4.19.0-22-cloud-amd64 #1 SMP Debian 4.19.260-1 (2022-09-29) x86_64) MySQL: 10.4.20-MariaDB-1:10.4.20+maria~buster-log (max packet size=134217728) WPLANG: en_US Server: Apache/2.4.54 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 82M | 32M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.114 (1) PHP event: code E_NOTICE: Undefined variable: _SESSION (line 450, wp-content/themes/AT10/framework/new_class/ppt_core.php)
+0000.160 (1) Free space on disk containing Updraft's temporary directory: 39242.1 MB
+0000.160 (1) PHP event: code E_NOTICE: Undefined variable: _SESSION (line 450, wp-content/themes/AT10/framework/new_class/ppt_core.php)
+0000.218 (1) Requesting backup semaphore lock (7edc4f3b3340)
+0000.218 (1) PHP event: code E_NOTICE: Undefined variable: _SESSION (line 450, wp-content/themes/AT10/framework/new_class/ppt_core.php)
+0000.265 (1) [Info] Lock (updraft_lock_7edc4f3b3340, wp_options) acquired
+0000.265 (1) PHP event: code E_NOTICE: Undefined variable: _SESSION (line 450, wp-content/themes/AT10/framework/new_class/ppt_core.php)
+0000.304 (1) This backup task (7edc4f3b3340) is either complete or began over 2 days ago: ending (1679606848.6329, ) (existing jobdata keys: )
+0000.304 (1) PHP event: code E_NOTICE: Undefined variable: _SESSION (line 450, wp-content/themes/AT10/framework/new_class/ppt_core.php)
