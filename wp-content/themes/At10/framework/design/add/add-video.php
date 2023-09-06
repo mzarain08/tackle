@@ -1,0 +1,1 @@
+<?php $GLOBALS['mediakey'] = "video"; _ppt_template('framework/design/add/add-images' ); ?> 

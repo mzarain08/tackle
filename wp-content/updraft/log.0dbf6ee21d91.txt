@@ -1,0 +1,682 @@
+0000.000 (0) Opened log file at time: Thu, 23 Mar 2023 21:27:56 +0000 on https://wordpress-963658-3377376.cloudwaysapps.com
+0000.018 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.3 WP: 6.1.1 PHP: 7.4.32 (fpm-fcgi, Linux 963658.cloudwaysapps.com 4.19.0-22-cloud-amd64 #1 SMP Debian 4.19.260-1 (2022-09-29) x86_64) MySQL: 10.4.20-MariaDB-1:10.4.20+maria~buster-log (max packet size=134217728) WPLANG: en_US Server: Apache/2.4.54 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 16.4M | 2M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.028 (0) Free space on disk containing Updraft's temporary directory: 39241 MB
+0000.040 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.053 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.092 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1679479326, seconds_ago=127550)
+0000.109 (0) Set semaphore last lock (fd) time to 2023-03-23 21:27:57
+0000.121 (0) Semaphore lock (fd) complete
+0000.141 (0) Backup run: resumption=0, nonce=0dbf6ee21d91, file_nonce=0dbf6ee21d91 begun at=1679606876 (1s ago), job type=backup
+0000.162 (0) Scheduling a resumption (1) after 300 seconds (1679607177) in case this run gets aborted
+0000.245 (0) Checking if we have a zip executable available
+0000.258 (0) Testing: /usr/bin/zip
+0000.291 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.304 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.315 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.328 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.338 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.367 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.379 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.425 (0) Working binary zip found: /usr/bin/zip
+0000.446 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.458 (0) Creation of backups of directories: beginning
+0000.505 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.827 (0) Total entities for the zip file: 991 directories, 4836 files (0 skipped as non-modified), 90.3 MB
+0000.840 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.852 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.867 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.880 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.897 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.908 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.917 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.927 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.933 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.944 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.7 MB, 4836 files batched, 968 (968) added so far); re-opening (prior size: 0 KB)
+0002.902 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: size is now: 8.20 MB
+0002.918 (0) A useful amount of data was added after this amount of zip processing: 2.8 s (normalised: 2.7 s, rate: 9332.4 KB/s)
+0002.934 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.8165578842163, normalised_time=2.7431297921352, max_time=2.9296729564667, data points known=1, old_max_bytes=26214400, new_max_bytes=57338300)
+0002.951 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 1000 files added (on-disk size: 8404.7 KB)
+0002.961 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 1100 files added (on-disk size: 8404.7 KB)
+0002.974 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 1200 files added (on-disk size: 8404.7 KB)
+0002.980 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 1300 files added (on-disk size: 8404.7 KB)
+0002.991 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 1400 files added (on-disk size: 8404.7 KB)
+0002.998 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 1500 files added (on-disk size: 8404.7 KB)
+0003.009 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 1600 files added (on-disk size: 8404.7 KB)
+0003.019 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 1700 files added (on-disk size: 8404.7 KB)
+0003.031 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 1800 files added (on-disk size: 8404.7 KB)
+0003.038 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 1900 files added (on-disk size: 8404.7 KB)
+0003.048 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.1 MB, 4836 files batched, 1001 (1969) added so far); re-opening (prior size: 8404.7 KB)
+0003.965 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: size is now: 10.80 MB
+0003.979 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 2000 files added (on-disk size: 11039.6 KB)
+0003.989 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 2100 files added (on-disk size: 11039.6 KB)
+0003.997 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 2200 files added (on-disk size: 11039.6 KB)
+0004.005 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 2300 files added (on-disk size: 11039.6 KB)
+0004.011 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 2400 files added (on-disk size: 11039.6 KB)
+0004.018 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 2500 files added (on-disk size: 11039.6 KB)
+0004.024 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 2600 files added (on-disk size: 11039.6 KB)
+0004.030 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 2700 files added (on-disk size: 11039.6 KB)
+0004.036 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 2800 files added (on-disk size: 11039.6 KB)
+0004.042 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 2900 files added (on-disk size: 11039.6 KB)
+0004.048 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (24.6 MB, 4836 files batched, 1001 (2970) added so far); re-opening (prior size: 11039.6 KB)
+0005.423 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: size is now: 17.80 MB
+0005.435 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 3000 files added (on-disk size: 18266 KB)
+0005.441 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 3100 files added (on-disk size: 18266 KB)
+0005.447 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 3200 files added (on-disk size: 18266 KB)
+0005.453 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 3300 files added (on-disk size: 18266 KB)
+0005.459 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 3400 files added (on-disk size: 18266 KB)
+0005.465 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 3500 files added (on-disk size: 18266 KB)
+0005.471 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 3600 files added (on-disk size: 18266 KB)
+0005.476 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 3700 files added (on-disk size: 18266 KB)
+0005.482 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 3800 files added (on-disk size: 18266 KB)
+0005.487 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 3900 files added (on-disk size: 18266 KB)
+0005.493 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.7 MB, 4836 files batched, 1001 (3971) added so far); re-opening (prior size: 18266 KB)
+0006.198 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: size is now: 22.20 MB
+0006.218 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 4000 files added (on-disk size: 22690.5 KB)
+0006.225 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 4100 files added (on-disk size: 22690.5 KB)
+0006.242 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 4200 files added (on-disk size: 22690.5 KB)
+0006.257 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 4300 files added (on-disk size: 22690.5 KB)
+0006.269 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 4400 files added (on-disk size: 22690.5 KB)
+0006.277 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 4500 files added (on-disk size: 22690.5 KB)
+0006.283 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 4600 files added (on-disk size: 22690.5 KB)
+0006.289 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 4700 files added (on-disk size: 22690.5 KB)
+0006.296 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: 4800 files added (on-disk size: 22690.5 KB)
+0007.633 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.tmp: size is now: 28.50 MB
+0007.685 (0) Creating zip file manifest (backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.list-temp.tmp)
+0007.698 (0) Successfully created zip file manifest (size: 368243)
+0008.000 (0) Created plugins zip (0) - 29178.2 KB in 7.5 s (3901.4 KB/s) (sha1: 4c6b78f12ae8de431545467f1e589a632d194f45, sha256: a2bb96c19d2884f7f46d060645f1b7c0a414d5fa869a7b444c3915e4619ecdf0)
+0008.018 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0008.023 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-fa9c0cda3ecb3565dacba44aa2b3ab19)
+0010.162 (0) Google Drive: quota usage: used=4957 MB, total=204800 MB, available=199843 MB
+0010.170 (0) Google Drive: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip: Attempting to upload to Google Drive (into folder id: 1jx8dBIqSB7a6H0S3agn1jTwnbshPkix6)
+0010.613 (0) Googledrive chunked upload: 3.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 18.3 / 2)
+0010.787 (0) Googledrive chunked upload: 10.5 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 18.3 / 2)
+0010.977 (0) Googledrive chunked upload: 24.6 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 18.3 / 2)
+0011.346 (0) Googledrive chunked upload: 52.6 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 18.3 / 2)
+0012.733 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0012.746 (0) Google Drive: OK: Archive backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip uploaded in 2.57 seconds
+0012.751 (0) Recording as successfully uploaded: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip
+0012.763 (0) Deleting local file: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip: OK
+0012.782 (0) Beginning creation of dump of themes (split every: 400 MB)
+0012.832 (0) Total entities for the zip file: 175 directories, 1934 files (0 skipped as non-modified), 36.2 MB
+0012.838 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0012.844 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0012.850 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0012.856 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0012.862 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0012.867 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0012.873 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0012.880 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0012.885 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0012.891 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0012.897 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.1 MB, 1934 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0013.966 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: size is now: 5.30 MB
+0013.977 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: 1100 files added (on-disk size: 5413.8 KB)
+0013.984 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: 1200 files added (on-disk size: 5413.8 KB)
+0013.989 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: 1300 files added (on-disk size: 5413.8 KB)
+0013.995 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: 1400 files added (on-disk size: 5413.8 KB)
+0014.001 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: 1500 files added (on-disk size: 5413.8 KB)
+0014.007 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: 1600 files added (on-disk size: 5413.8 KB)
+0014.015 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: 1700 files added (on-disk size: 5413.8 KB)
+0014.021 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: 1800 files added (on-disk size: 5413.8 KB)
+0014.027 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: 1900 files added (on-disk size: 5413.8 KB)
+0014.697 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.tmp: size is now: 17.00 MB
+0014.721 (0) Creating zip file manifest (backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.list-temp.tmp)
+0014.729 (0) Successfully created zip file manifest (size: 122542)
+0014.915 (0) Created themes zip (0) - 17358.3 KB in 2.1 s (8178.1 KB/s) (sha1: 531785210da7f63317572bb5d08963cd41886c44, sha256: 7d291081a6b95298fa9af51d4856454c031fba9a14d3b81889e2f816351f2a79)
+0014.931 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0014.936 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-fa9c0cda3ecb3565dacba44aa2b3ab19)
+0015.194 (0) Google Drive: quota usage: used=4985.5 MB, total=204800 MB, available=199814.5 MB
+0015.201 (0) Google Drive: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip: Attempting to upload to Google Drive (into folder id: 1jx8dBIqSB7a6H0S3agn1jTwnbshPkix6)
+0015.651 (0) Googledrive chunked upload: 5.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 17.8 / 2)
+0015.834 (0) Googledrive chunked upload: 17.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 17.8 / 2)
+0016.212 (0) Googledrive chunked upload: 41.3 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 17.8 / 2)
+0016.563 (0) Googledrive chunked upload: 88.5 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 17.8 / 2)
+0017.727 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0017.741 (0) Google Drive: OK: Archive backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip uploaded in 2.53 seconds
+0017.746 (0) Recording as successfully uploaded: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip
+0017.757 (0) Deleting local file: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip: OK
+0017.771 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0017.777 (0) Looking for candidates to backup in: /home/963658.cloudwaysapps.com/ynjemjucfc/public_html/wp-content/uploads
+0017.783 (0) finding files: jhvfjh-rotated.jpg: adding to list (1)
+0017.788 (0) finding files: s-l160087tgo-1152x1536.jpg: adding to list (2)
+0017.792 (0) finding files: 2022: adding to list (3)
+0017.797 (0) finding files: bv-v-768x576.jpg: adding to list (4)
+0017.802 (0) finding files: 3-1024x768.jpg: adding to list (5)
+0017.807 (0) finding files: TA-Logo-1-1049x1536.png: adding to list (6)
+0017.811 (0) finding files: TA-Logo.png: adding to list (7)
+0017.820 (0) finding files: TA-Logo-1-768x1124.png: adding to list (8)
+0017.828 (0) finding files: how_it_works-scaled.jpg: adding to list (9)
+0017.833 (0) finding files: contact_image-scaled.jpg: adding to list (10)
+0017.838 (0) finding files: s-l1600jhnv-.k.jpg: adding to list (11)
+0017.842 (0) finding files: Boat_Fishing_Sunset_LG-300x131.jpg: adding to list (12)
+0017.847 (0) finding files: s-l1600rdt-225x300.jpg: adding to list (13)
+0017.851 (0) finding files: TA-Logo-239x350.png: adding to list (14)
+0017.856 (0) finding files: s-l1600g-263x350.jpg: adding to list (15)
+0017.860 (0) finding files: bv-v-1536x1152.jpg: adding to list (16)
+0017.864 (0) finding files: 3-768x576.jpg: adding to list (17)
+0017.869 (0) finding files: contact_image-768x512.jpg: adding to list (18)
+0017.873 (0) finding files: TA-Logo-1-205x300.png: adding to list (19)
+0017.878 (0) finding files: 1-1-1024x768.jpg: adding to list (20)
+0017.882 (0) finding files: TA-Logo-1049x1536.png: adding to list (21)
+0017.886 (0) finding files: s-l1600-1.jpg: adding to list (22)
+0017.891 (0) finding files: eb-patterns: adding to list (23)
+0017.895 (0) finding files: s-l1600rdt-263x350.jpg: adding to list (24)
+0017.900 (0) finding files: 2-300x225.jpg: adding to list (25)
+0017.904 (0) finding files: bvc-300x225.jpg: adding to list (26)
+0017.909 (0) finding files: s-l1600iugl.jpg: adding to list (27)
+0017.914 (0) finding files: Boat_Fishing_Sunset_LG-768x336.jpg: adding to list (28)
+0017.919 (0) finding files: bv-v.jpg: adding to list (29)
+0017.923 (0) finding files: TA-Logo-205x300.png: adding to list (30)
+0017.927 (0) finding files: s-l1600g-1152x1536.jpg: adding to list (31)
+0017.932 (0) finding files: elementor: adding to list (32)
+0017.936 (0) finding files: fbrfg: adding to list (33)
+0017.941 (0) finding files: s-l1600iugl-300x225.jpg: adding to list (34)
+0017.945 (0) finding files: Biggun-300x169.jpg: adding to list (35)
+0017.950 (0) finding files: Biggun.jpg: adding to list (36)
+0017.954 (0) finding files: s-l1600rdt-1152x1536.jpg: adding to list (37)
+0017.959 (0) finding files: bv-v-rotated.jpg: adding to list (38)
+0017.965 (0) finding files: 2021: adding to list (39)
+0017.970 (0) finding files: Img.png: adding to list (40)
+0017.975 (0) finding files: s-l1600jhnv-.k-768x576.jpg: adding to list (41)
+0017.980 (0) finding files: contact_image.jpg: adding to list (42)
+0017.985 (0) finding files: Pic1.jpg: adding to list (43)
+0017.989 (0) finding files: Furz-1536x918.jpg: adding to list (44)
+0017.994 (0) finding files: 2.jpg: adding to list (45)
+0017.998 (0) finding files: how_it_works.jpg: adding to list (46)
+0018.004 (0) finding files: jhvfjh-300x225.jpg: adding to list (47)
+0018.009 (0) finding files: s-l1600-1-300x225.jpg: adding to list (48)
+0018.013 (0) finding files: bv-v-1024x768.jpg: adding to list (49)
+0018.017 (0) finding files: Furz.jpg: adding to list (50)
+0018.022 (0) finding files: s-l1600g-225x300.jpg: adding to list (51)
+0018.022 (0) finding files: TA-Logo-768x1124.png: adding to list (52)
+0018.022 (0) finding files: s-l1600g.jpg: adding to list (53)
+0018.022 (0) finding files: contact_image-2048x1365.jpg: adding to list (54)
+0018.022 (0) finding files: bvc-rotated.jpg: adding to list (55)
+0018.022 (0) finding files: 2-768x576.jpg: adding to list (56)
+0018.022 (0) finding files: s-l1600iugl-rotated.jpg: adding to list (57)
+0018.022 (0) finding files: s-l1600g-768x1024.jpg: adding to list (58)
+0018.022 (0) finding files: Biggun-1024x576.jpg: adding to list (59)
+0018.022 (0) finding files: s-l1600-1-rotated.jpg: adding to list (60)
+0018.022 (0) finding files: s-l1600iugl-768x576.jpg: adding to list (61)
+0018.022 (0) finding files: s-l1600jhnv-.k-rotated.jpg: adding to list (62)
+0018.022 (0) finding files: Boat_Fishing_Sunset_LG-1024x448.jpg: adding to list (63)
+0018.022 (0) finding files: contact_image-1024x683.jpg: adding to list (64)
+0018.022 (0) finding files: s-l1600jhnv-.k-1024x768.jpg: adding to list (65)
+0018.022 (0) finding files: Furz-768x459.jpg: adding to list (66)
+0018.022 (0) finding files: contact_image-300x200.jpg: adding to list (67)
+0018.022 (0) finding files: Pic1-300x316.jpg: adding to list (68)
+0018.022 (0) finding files: 1-1-1536x1152.jpg: adding to list (69)
+0018.022 (0) finding files: 2-1536x1152.jpg: adding to list (70)
+0018.022 (0) finding files: Boat_Fishing_Sunset_LG.jpg: adding to list (71)
+0018.022 (0) finding files: TA-Logo-1-239x350.png: adding to list (72)
+0018.022 (0) finding files: TA-Logo-1-699x1024.png: adding to list (73)
+0018.022 (0) finding files: s-l1600-1-768x576.jpg: adding to list (74)
+0018.022 (0) finding files: s-l160087tgo.jpg: adding to list (75)
+0018.022 (0) finding files: 1-1.jpg: adding to list (76)
+0018.022 (0) finding files: bvc-768x576.jpg: adding to list (77)
+0018.022 (0) finding files: s-l1600-300x328.jpg: adding to list (78)
+0018.022 (0) finding files: s-l1600iugl-1024x768.jpg: adding to list (79)
+0018.022 (0) finding files: 3-1536x1152.jpg: adding to list (80)
+0018.022 (0) finding files: Furz-1024x612.jpg: adding to list (81)
+0018.022 (0) finding files: 3.jpg: adding to list (82)
+0018.022 (0) finding files: 2-1024x768.jpg: adding to list (83)
+0018.022 (0) finding files: jhvfjh-1024x768.jpg: adding to list (84)
+0018.022 (0) finding files: Furz-300x179.jpg: adding to list (85)
+0018.022 (0) finding files: 2023: adding to list (86)
+0018.022 (0) finding files: bvc-1024x768.jpg: adding to list (87)
+0018.022 (0) finding files: TA-Logo-1.png: adding to list (88)
+0018.022 (0) finding files: s-l1600-275x300.jpg: adding to list (89)
+0018.022 (0) finding files: bv-v-300x225.jpg: adding to list (90)
+0018.022 (0) finding files: bvc.jpg: adding to list (91)
+0018.022 (0) finding files: s-l1600rdt-768x1024.jpg: adding to list (92)
+0018.022 (0) finding files: how_it_works-1024x683.jpg: adding to list (93)
+0018.022 (0) finding files: 3-300x225.jpg: adding to list (94)
+0018.022 (0) finding files: s-l1600-1-1536x1152.jpg: adding to list (95)
+0018.022 (0) finding files: s-l1600-1-1024x768.jpg: adding to list (96)
+0018.022 (0) finding files: s-l160087tgo-225x300.jpg: adding to list (97)
+0018.022 (0) finding files: Pic1-285x300.jpg: adding to list (98)
+0018.022 (0) finding files: how_it_works-1536x1024.jpg: adding to list (99)
+0018.022 (0) finding files: s-l1600rdt.jpg: adding to list (100)
+0018.027 (0) finding files: contact_image-1536x1024.jpg: adding to list (101)
+0018.027 (0) finding files: s-l1600jhnv-.k-300x225.jpg: adding to list (102)
+0018.027 (0) finding files: s-l1600jhnv-.k-1536x1152.jpg: adding to list (103)
+0018.027 (0) finding files: 1-1-768x576.jpg: adding to list (104)
+0018.027 (0) finding files: jhvfjh-768x576.jpg: adding to list (105)
+0018.027 (0) finding files: s-l160087tgo-768x1024.jpg: adding to list (106)
+0018.027 (0) finding files: bvc-1536x1152.jpg: adding to list (107)
+0018.027 (0) finding files: jhvfjh.jpg: adding to list (108)
+0018.027 (0) finding files: how_it_works-300x200.jpg: adding to list (109)
+0018.027 (0) finding files: Biggun-1536x864.jpg: adding to list (110)
+0018.027 (0) finding files: s-l1600-768x839.jpg: adding to list (111)
+0018.027 (0) finding files: how_it_works-2048x1365.jpg: adding to list (112)
+0018.027 (0) finding files: s-l1600.jpg: adding to list (113)
+0018.027 (0) finding files: TA-Logo-699x1024.png: adding to list (114)
+0018.027 (0) finding files: Biggun-768x432.jpg: adding to list (115)
+0018.027 (0) finding files: s-l1600iugl-1536x1152.jpg: adding to list (116)
+0018.027 (0) finding files: Img-300x268.png: adding to list (117)
+0018.027 (0) finding files: jhvfjh-1536x1152.jpg: adding to list (118)
+0018.027 (0) finding files: how_it_works-768x512.jpg: adding to list (119)
+0018.027 (0) finding files: 1-1-300x225.jpg: adding to list (120)
+0018.027 (0) finding files: s-l160087tgo-263x350.jpg: adding to list (121)
+0018.027 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0018.043 (0) Total entities for the zip file: 16 directories, 292 files (0 skipped as non-modified), 46.2 MB
+0018.049 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0018.054 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0018.391 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-uploads.zip.tmp: size is now: 46.00 MB
+0018.404 (0) Creating zip file manifest (backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-uploads.zip.list-temp.tmp)
+0018.410 (0) Successfully created zip file manifest (size: 13830)
+0018.882 (0) Created uploads zip (0) - 47150.7 KB in 0.8 s (55828.5 KB/s) (sha1: a95e34c5301143ef1b0412514a329079070466e8, sha256: 10b86e0abe600210584a43276b75dd02b5b7e4c95dda8ff58d32ff7f1a2bc9fe)
+0018.901 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0018.909 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-fa9c0cda3ecb3565dacba44aa2b3ab19)
+0019.182 (0) Google Drive: quota usage: used=5002.5 MB, total=204800 MB, available=199797.5 MB
+0019.188 (0) Google Drive: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-uploads.zip: Attempting to upload to Google Drive (into folder id: 1jx8dBIqSB7a6H0S3agn1jTwnbshPkix6)
+0019.599 (0) Googledrive chunked upload: 2.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 17.6 / 2)
+0019.749 (0) Googledrive chunked upload: 6.5 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 17.6 / 2)
+0019.946 (0) Googledrive chunked upload: 15.2 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 17.6 / 2)
+0020.198 (0) Googledrive chunked upload: 32.6 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 17.6 / 2)
+0020.751 (0) Googledrive chunked upload: 67.3 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 17.6 / 2)
+0022.182 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0022.207 (0) Google Drive: OK: Archive backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-uploads.zip uploaded in 3.01 seconds
+0022.221 (0) Recording as successfully uploaded: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-uploads.zip
+0022.249 (0) Deleting local file: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-uploads.zip: OK
+0022.275 (0) Beginning backup of other directories found in the content directory (index: 0)
+0022.286 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0022.291 (0) Looking for candidates to backup in: /home/963658.cloudwaysapps.com/ynjemjucfc/public_html/wp-content
+0022.298 (0) finding files: mu-plugins: adding to list (1)
+0022.305 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0022.313 (0) finding files: languages: adding to list (2)
+0022.323 (0) finding files: breeze-config: adding to list (3)
+0022.328 (0) finding files: wflogs: adding to list (4)
+0022.336 (0) finding files: upgrade: skipping: excluded by options
+0022.346 (0) finding files: advanced-cache.php: adding to list (5)
+0022.350 (0) finding files: mc_data: adding to list (6)
+0022.362 (0) finding files: uploads: skipping: this is the uploads directory
+0022.367 (0) finding files: themes: skipping: this is the themes directory
+0022.374 (0) finding files: index.php: adding to list (7)
+0022.382 (0) finding files: object-cache.php: adding to list (8)
+0022.390 (0) finding files: cache: skipping: excluded by options
+0022.398 (0) finding files: nitropack: adding to list (9)
+0022.404 (0) finding files: plugins: skipping: this is the plugins directory
+0022.412 (0) finding files: updraft: skipping: this is the updraft directory
+0022.438 (0) Total entities for the zip file: 55 directories, 738 files (0 skipped as non-modified), 43.7 MB
+0022.445 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0022.451 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0022.465 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0022.471 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0022.477 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0022.483 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-others.zip.tmp: 600 files added (on-disk size: 0 KB)
+0022.489 (0) Zip: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-others.zip.tmp: 700 files added (on-disk size: 0 KB)
+0024.661 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-others.zip.tmp: size is now: 10.30 MB
+0024.679 (0) Creating zip file manifest (backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-others.zip.list-temp.tmp)
+0024.686 (0) Successfully created zip file manifest (size: 48900)
+0024.810 (0) Created others zip (0) - 10595.4 KB in 2.4 s (4443.9 KB/s) (sha1: ecd7f3cb02f9adbc1a367a3932d85621e601cee2, sha256: c044e4f6152b889caa80700583dcbbc2bb46e087039f37d60e8bfdba0688b3db)
+0024.825 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0024.831 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-fa9c0cda3ecb3565dacba44aa2b3ab19)
+0025.128 (0) Google Drive: quota usage: used=5048.5 MB, total=204800 MB, available=199751.5 MB
+0025.135 (0) Google Drive: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-others.zip: Attempting to upload to Google Drive (into folder id: 1jx8dBIqSB7a6H0S3agn1jTwnbshPkix6)
+0025.580 (0) Googledrive chunked upload: 9.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 17.6 / 2)
+0025.772 (0) Googledrive chunked upload: 29 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 17.6 / 2)
+0025.994 (0) Googledrive chunked upload: 67.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 17.6 / 2)
+0027.223 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0027.238 (0) Google Drive: OK: Archive backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-others.zip uploaded in 2.1 seconds
+0027.244 (0) Recording as successfully uploaded: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-others.zip
+0027.256 (0) Deleting local file: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-others.zip: OK
+0027.285 (0) Saving backup status to database (elements: 8)
+0027.301 (0) Beginning creation of database dump (WordPress DB)
+0027.309 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0027.322 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0027.358 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1588 bytes total)
+0027.366 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0027.400 (0) Table wp_options: Total expected rows (via COUNT): 639
+0027.482 (0) Table wp_options: Rows added in this batch (next record: 116990): 635 (uncompressed bytes in this segment=1405550) in 0.09 seconds
+0027.508 (0) Table wp_options: finishing file(s) (2, 265 KB)
+0027.522 (0) Table wp_users: Total expected rows (via COUNT): 17
+0027.528 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.540 (0) Table wp_users: Rows added in this batch (next record: 19): 17 (uncompressed bytes in this segment=3844) in 0.02 seconds
+0027.555 (0) Table wp_users: finishing file(s) (2, 1.7 KB)
+0027.575 (0) Table wp_usermeta: Total expected rows (via COUNT): 443
+0027.584 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.597 (0) Table wp_usermeta: Rows added in this batch (next record: 813): 443 (uncompressed bytes in this segment=44754) in 0.03 seconds
+0027.642 (0) Table wp_usermeta: finishing file(s) (2, 9.6 KB)
+0027.674 (0) Table wp_commentmeta: Total expected rows (via COUNT): 9
+0027.684 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.706 (0) Table wp_commentmeta: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1025) in 0.04 seconds
+0027.746 (0) Table wp_commentmeta: finishing file(s) (2, 0.5 KB)
+0027.771 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0027.785 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.798 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2040) in 0.03 seconds
+0027.824 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0027.854 (0) Table wp_links: Total expected rows (via COUNT): 0
+0027.878 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1325) in 0.03 seconds
+0027.905 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0027.939 (0) Table wp_postmeta: Total expected rows (approximate): 3743
+0028.287 (0) Table wp_postmeta: Rows added in this batch (next record: 18930): 4567 (uncompressed bytes in this segment=4122927) in 0.36 seconds
+0028.318 (0) Table wp_postmeta: finishing file(s) (2, 318.6 KB)
+0028.340 (0) Table wp_posts: Total expected rows (via COUNT): 612
+0028.589 (0) Table wp_posts: Rows added in this batch (next record: 2851): 612 (uncompressed bytes in this segment=4829801) in 0.26 seconds
+0028.616 (0) Table wp_posts: finishing file(s) (2, 319.8 KB)
+0028.634 (0) Table wp_term_relationships: Total expected rows (approximate): 240
+0028.647 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 240 (uncompressed bytes in this segment=4635) in 0.01 seconds
+0028.670 (0) Table wp_term_relationships: finishing file(s) (2, 1.1 KB)
+0028.691 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 326
+0028.698 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.716 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 595): 326 (uncompressed bytes in this segment=12935) in 0.03 seconds
+0028.739 (0) Table wp_term_taxonomy: finishing file(s) (2, 2.6 KB)
+0028.754 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0028.764 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=688) in 0.02 seconds
+0028.783 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0028.794 (0) Table wp_terms: Total expected rows (via COUNT): 326
+0028.799 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.811 (0) Table wp_terms: Rows added in this batch (next record: 595): 326 (uncompressed bytes in this segment=14786) in 0.02 seconds
+0028.827 (0) Table wp_terms: finishing file(s) (2, 5.2 KB)
+0028.839 (0) Table wp_bv_fw_requests: Total expected rows (via COUNT): 0
+0028.856 (0) Table wp_bv_fw_requests: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1386) in 0.02 seconds
+0028.874 (0) Table wp_bv_fw_requests: finishing file(s) (2, 0.5 KB)
+0028.885 (0) Table wp_bv_ip_store: Total expected rows (approximate): 6639
+0028.929 (0) Table wp_bv_ip_store: Rows added in this batch (next record: 6659): 6659 (uncompressed bytes in this segment=295868) in 0.04 seconds
+0028.944 (0) Table wp_bv_ip_store: finishing file(s) (2, 53 KB)
+0028.956 (0) Table wp_bv_lp_requests: Total expected rows (via COUNT): 0
+0028.962 (0) Table wp_bv_lp_requests: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=854) in 0.01 seconds
+0028.977 (0) Table wp_bv_lp_requests: finishing file(s) (2, 0.4 KB)
+0028.988 (0) Table wp_core_sessions: Total expected rows (approximate): 0
+0028.994 (0) Table wp_core_sessions: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=590) in 0.01 seconds
+0029.008 (0) Table wp_core_sessions: finishing file(s) (2, 0.4 KB)
+0029.019 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0029.033 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=561) in 0.01 seconds
+0029.052 (0) Table wp_e_events: finishing file(s) (2, 0.4 KB)
+0029.069 (0) Table wp_e_notes: Total expected rows (via COUNT): 0
+0029.075 (0) Table wp_e_notes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2121) in 0.01 seconds
+0029.093 (0) Table wp_e_notes: finishing file(s) (2, 0.8 KB)
+0029.105 (0) Table wp_e_notes_users_relations: Total expected rows (via COUNT): 0
+0029.111 (0) Table wp_e_notes_users_relations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=902) in 0.01 seconds
+0029.125 (0) Table wp_e_notes_users_relations: finishing file(s) (2, 0.5 KB)
+0029.137 (0) Table wp_e_submissions: Total expected rows (via COUNT): 31
+0029.143 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.155 (0) Table wp_e_submissions: Rows added in this batch (next record: 31): 31 (uncompressed bytes in this segment=16323) in 0.02 seconds
+0029.170 (0) Table wp_e_submissions: finishing file(s) (2, 3 KB)
+0029.181 (0) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 31
+0029.186 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.193 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: 31): 31 (uncompressed bytes in this segment=5612) in 0.01 seconds
+0029.207 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 1.1 KB)
+0029.224 (0) Table wp_e_submissions_values: Total expected rows (via COUNT): 124
+0029.230 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.243 (0) Table wp_e_submissions_values: Rows added in this batch (next record: 124): 124 (uncompressed bytes in this segment=58350) in 0.03 seconds
+0029.260 (0) Table wp_e_submissions_values: finishing file(s) (2, 9.8 KB)
+0029.277 (0) Table wp_snippets: Total expected rows (via COUNT): 5
+0029.282 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.292 (0) Table wp_snippets: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=2703) in 0.02 seconds
+0029.314 (0) Table wp_snippets: finishing file(s) (2, 0.9 KB)
+0029.330 (0) Table wp_trp_dictionary_en_gb_fr_fr: Total expected rows (via COUNT): 0
+0029.340 (0) Table wp_trp_dictionary_en_gb_fr_fr: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=821) in 0.01 seconds
+0029.356 (0) Table wp_trp_dictionary_en_gb_fr_fr: finishing file(s) (2, 0.4 KB)
+0029.372 (0) Table wp_trp_gettext_en_gb: Total expected rows (via COUNT): 561
+0029.381 (0) Table wp_trp_gettext_en_gb: Rows added in this batch (next record: 561): 561 (uncompressed bytes in this segment=36841) in 0.01 seconds
+0029.406 (0) Table wp_trp_gettext_en_gb: finishing file(s) (2, 8.7 KB)
+0029.424 (0) Table wp_trp_gettext_fr_fr: Total expected rows (via COUNT): 0
+0029.434 (0) Table wp_trp_gettext_fr_fr: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=839) in 0.02 seconds
+0029.458 (0) Table wp_trp_gettext_fr_fr: finishing file(s) (2, 0.4 KB)
+0029.483 (0) Table wp_trp_gettext_original_meta: Total expected rows (via COUNT): 0
+0029.498 (0) Table wp_trp_gettext_original_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=832) in 0.02 seconds
+0029.523 (0) Table wp_trp_gettext_original_meta: finishing file(s) (2, 0.4 KB)
+0029.544 (0) Table wp_trp_gettext_original_strings: Total expected rows (via COUNT): 561
+0029.563 (0) Table wp_trp_gettext_original_strings: Rows added in this batch (next record: 561): 561 (uncompressed bytes in this segment=39189) in 0.02 seconds
+0029.586 (0) Table wp_trp_gettext_original_strings: finishing file(s) (2, 7.1 KB)
+0029.607 (0) Table wp_trp_original_meta: Total expected rows (via COUNT): 0
+0029.622 (0) Table wp_trp_original_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=768) in 0.02 seconds
+0029.646 (0) Table wp_trp_original_meta: finishing file(s) (2, 0.4 KB)
+0029.661 (0) Table wp_trp_original_strings: Total expected rows (via COUNT): 0
+0029.673 (0) Table wp_trp_original_strings: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=585) in 0.01 seconds
+0029.686 (0) Table wp_trp_original_strings: finishing file(s) (2, 0.4 KB)
+0029.697 (0) Table wp_wfblockediplog: Total expected rows (approximate): 83
+0029.704 (0) Table wp_wfblockediplog: Rows added in this batch (next record: 1000): 83 (uncompressed bytes in this segment=5881) in 0.01 seconds
+0029.718 (0) Table wp_wfblockediplog: finishing file(s) (2, 1.1 KB)
+0029.734 (0) Table wp_wfblocks7: Total expected rows (via COUNT): 0
+0029.740 (0) Table wp_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=852) in 0.01 seconds
+0029.755 (0) Table wp_wfblocks7: finishing file(s) (2, 0.4 KB)
+0029.766 (0) Table wp_wfconfig: Total expected rows (approximate): 271
+0029.817 (0) Table wp_wfconfig: Rows added in this batch (next record: 1000): 273 (uncompressed bytes in this segment=832716) in 0.05 seconds
+0029.832 (0) Table wp_wfconfig: finishing file(s) (2, 429.6 KB)
+0029.843 (0) Table wp_wfcrawlers: Total expected rows (approximate): 13
+0029.850 (0) Table wp_wfcrawlers: Rows added in this batch (next record: 1000): 13 (uncompressed bytes in this segment=2358) in 0.01 seconds
+0029.864 (0) Table wp_wfcrawlers: finishing file(s) (2, 0.6 KB)
+0029.874 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0029.880 (0) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=471) in 0.01 seconds
+0029.899 (0) Table wp_wffilechanges: finishing file(s) (2, 0.3 KB)
+0029.910 (0) Table wp_wffilemods: Total expected rows (approximate): 8917
+0030.054 (0) Table wp_wffilemods: binary mysqldump finished (writes: 38, bytes 2705685, return code 0) in 0.14 seconds
+0030.065 (0) Table wp_wffilemods: finishing file(s) (1, 836 KB)
+0030.077 (0) Table wp_wfhits: Total expected rows (via COUNT): 621
+0030.096 (0) Table wp_wfhits: Rows added in this batch (next record: 6982): 621 (uncompressed bytes in this segment=383730) in 0.02 seconds
+0030.112 (0) Table wp_wfhits: finishing file(s) (2, 24.3 KB)
+0030.125 (0) Table wp_wfhoover: Total expected rows (via COUNT): 0
+0030.131 (0) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=534) in 0.01 seconds
+0030.147 (0) Table wp_wfhoover: finishing file(s) (2, 0.3 KB)
+0030.159 (0) Table wp_wfissues: Total expected rows (via COUNT): 8
+0030.165 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0030.177 (0) Table wp_wfissues: Rows added in this batch (next record: 157): 8 (uncompressed bytes in this segment=10776) in 0.02 seconds
+0030.193 (0) Table wp_wfissues: finishing file(s) (2, 3.3 KB)
+0030.204 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 8664
+0030.314 (0) Table wp_wfknownfilelist: binary mysqldump finished (writes: 30, bytes 1697311, return code 0) in 0.10 seconds
+0030.326 (0) Table wp_wfknownfilelist: finishing file(s) (1, 122 KB)
+0030.336 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0030.346 (0) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=667) in 0.01 seconds
+0030.359 (0) Table wp_wflivetraffichuman: finishing file(s) (2, 0.4 KB)
+0030.370 (0) Table wp_wflocs: Total expected rows (approximate): 2
+0030.375 (0) Table wp_wflocs: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=997) in 0.01 seconds
+0030.388 (0) Table wp_wflocs: finishing file(s) (2, 0.6 KB)
+0030.399 (0) Table wp_wflogins: Total expected rows (approximate): 1460
+0030.422 (0) Table wp_wflogins: Rows added in this batch (next record: 1480): 1480 (uncompressed bytes in this segment=335949) in 0.02 seconds
+0030.436 (0) Table wp_wflogins: finishing file(s) (2, 34.1 KB)
+0030.447 (0) Table wp_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0030.455 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=700) in 0.01 seconds
+0030.470 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0030.484 (0) Table wp_wfls_role_counts: Total expected rows (approximate): 0
+0030.490 (0) Table wp_wfls_role_counts: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=548) in 0.01 seconds
+0030.509 (0) Table wp_wfls_role_counts: finishing file(s) (2, 0.3 KB)
+0030.520 (0) Table wp_wfls_settings: Total expected rows (approximate): 27
+0030.527 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 27 (uncompressed bytes in this segment=1959) in 0.01 seconds
+0030.542 (0) Table wp_wfls_settings: finishing file(s) (2, 0.9 KB)
+0030.554 (0) Table wp_wfnotifications: Total expected rows (approximate): 79
+0030.561 (0) Table wp_wfnotifications: Rows added in this batch (next record: 1000): 79 (uncompressed bytes in this segment=17187) in 0.01 seconds
+0030.576 (0) Table wp_wfnotifications: finishing file(s) (2, 1.9 KB)
+0030.588 (0) Table wp_wfpendingissues: Total expected rows (via COUNT): 0
+0030.596 (0) Table wp_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=891) in 0.01 seconds
+0030.611 (0) Table wp_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0030.621 (0) Table wp_wfreversecache: Total expected rows (approximate): 5
+0030.628 (0) Table wp_wfreversecache: Rows added in this batch (next record: 1000): 5 (uncompressed bytes in this segment=958) in 0.01 seconds
+0030.646 (0) Table wp_wfreversecache: finishing file(s) (2, 0.5 KB)
+0030.658 (0) Table wp_wfsnipcache: Total expected rows (via COUNT): 0
+0030.664 (0) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=735) in 0.01 seconds
+0030.687 (0) Table wp_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0030.698 (0) Table wp_wfstatus: Total expected rows (via COUNT): 983
+0030.715 (0) Table wp_wfstatus: Rows added in this batch (next record: 47896): 983 (uncompressed bytes in this segment=100666) in 0.02 seconds
+0030.732 (0) Table wp_wfstatus: finishing file(s) (2, 17.8 KB)
+0030.744 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0030.752 (0) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=585) in 0.01 seconds
+0030.766 (0) Table wp_wftrafficrates: finishing file(s) (2, 0.4 KB)
+0030.773 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_options.table.tmpr116991.gz (1/52/fopen): adding to final database dump
+0030.780 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_options.table.gz (2/52/fopen): adding to final database dump
+0030.786 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_users.table.tmpr20.gz (3/52/fopen): adding to final database dump
+0030.791 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_users.table.gz (4/52/fopen): adding to final database dump
+0030.796 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_usermeta.table.tmpr814.gz (5/52/fopen): adding to final database dump
+0030.802 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_usermeta.table.gz (6/52/fopen): adding to final database dump
+0030.807 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_commentmeta.table.tmpr10.gz (7/52/fopen): adding to final database dump
+0030.812 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_commentmeta.table.gz (8/52/fopen): adding to final database dump
+0030.818 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_comments.table.tmpr2.gz (9/52/fopen): adding to final database dump
+0030.823 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_comments.table.gz (10/52/fopen): adding to final database dump
+0030.830 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_links.table.tmpr0.gz (11/52/fopen): adding to final database dump
+0030.835 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_links.table.gz (12/52/fopen): adding to final database dump
+0030.841 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_postmeta.table.tmpr18931.gz (13/52/fopen): adding to final database dump
+0030.848 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_postmeta.table.gz (14/52/fopen): adding to final database dump
+0030.853 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_posts.table.tmpr2852.gz (15/52/fopen): adding to final database dump
+0030.861 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_posts.table.gz (16/52/fopen): adding to final database dump
+0030.867 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_term_relationships.table.tmpr100001.gz (17/52/fopen): adding to final database dump
+0030.872 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_term_relationships.table.gz (18/52/fopen): adding to final database dump
+0030.877 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_term_taxonomy.table.tmpr596.gz (19/52/fopen): adding to final database dump
+0030.883 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_term_taxonomy.table.gz (20/52/fopen): adding to final database dump
+0030.888 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_termmeta.table.tmpr0.gz (21/52/fopen): adding to final database dump
+0030.893 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_termmeta.table.gz (22/52/fopen): adding to final database dump
+0030.899 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_terms.table.tmpr596.gz (23/52/fopen): adding to final database dump
+0030.904 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_terms.table.gz (24/52/fopen): adding to final database dump
+0030.910 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_bv_fw_requests.table.tmpr0.gz (25/52/fopen): adding to final database dump
+0030.915 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_bv_fw_requests.table.gz (26/52/fopen): adding to final database dump
+0030.920 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_bv_ip_store.table.tmpr6660.gz (27/52/fopen): adding to final database dump
+0030.926 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_bv_ip_store.table.gz (28/52/fopen): adding to final database dump
+0030.934 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_bv_lp_requests.table.tmpr0.gz (29/52/fopen): adding to final database dump
+0030.942 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_bv_lp_requests.table.gz (30/52/fopen): adding to final database dump
+0030.950 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_core_sessions.table.tmpr1.gz (31/52/fopen): adding to final database dump
+0030.956 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_core_sessions.table.gz (32/52/fopen): adding to final database dump
+0030.961 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_e_events.table.tmpr0.gz (33/52/fopen): adding to final database dump
+0030.968 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_e_events.table.gz (34/52/fopen): adding to final database dump
+0030.975 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_e_notes.table.tmpr0.gz (35/52/fopen): adding to final database dump
+0030.984 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_e_notes.table.gz (36/52/fopen): adding to final database dump
+0030.989 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_e_notes_users_relations.table.tmpr0.gz (37/52/fopen): adding to final database dump
+0030.997 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_e_notes_users_relations.table.gz (38/52/fopen): adding to final database dump
+0031.004 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_e_submissions.table.tmpr32.gz (39/52/fopen): adding to final database dump
+0031.011 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_e_submissions.table.gz (40/52/fopen): adding to final database dump
+0031.017 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_e_submissions_actions_log.table.tmpr32.gz (41/52/fopen): adding to final database dump
+0031.022 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_e_submissions_actions_log.table.gz (42/52/fopen): adding to final database dump
+0031.028 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_e_submissions_values.table.tmpr125.gz (43/52/fopen): adding to final database dump
+0031.034 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_e_submissions_values.table.gz (44/52/fopen): adding to final database dump
+0031.040 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_snippets.table.tmpr6.gz (45/52/fopen): adding to final database dump
+0031.045 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_snippets.table.gz (46/52/fopen): adding to final database dump
+0031.051 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_trp_dictionary_en_gb_fr_fr.table.tmpr0.gz (47/52/fopen): adding to final database dump
+0031.057 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_trp_dictionary_en_gb_fr_fr.table.gz (48/52/fopen): adding to final database dump
+0031.063 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_trp_gettext_en_gb.table.tmpr562.gz (49/52/fopen): adding to final database dump
+0031.069 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_trp_gettext_en_gb.table.gz (50/52/fopen): adding to final database dump
+0031.075 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_trp_gettext_fr_fr.table.tmpr0.gz (51/52/fopen): adding to final database dump
+0031.082 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_trp_gettext_fr_fr.table.gz (52/52/fopen): adding to final database dump
+0031.088 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_trp_gettext_original_meta.table.tmpr0.gz (53/52/fopen): adding to final database dump
+0031.093 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_trp_gettext_original_meta.table.gz (54/52/fopen): adding to final database dump
+0031.098 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_trp_gettext_original_strings.table.tmpr562.gz (55/52/fopen): adding to final database dump
+0031.103 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_trp_gettext_original_strings.table.gz (56/52/fopen): adding to final database dump
+0031.108 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_trp_original_meta.table.tmpr0.gz (57/52/fopen): adding to final database dump
+0031.113 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_trp_original_meta.table.gz (58/52/fopen): adding to final database dump
+0031.118 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_trp_original_strings.table.tmpr0.gz (59/52/fopen): adding to final database dump
+0031.123 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_trp_original_strings.table.gz (60/52/fopen): adding to final database dump
+0031.131 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfblockediplog.table.tmpr1001.gz (61/52/fopen): adding to final database dump
+0031.137 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfblockediplog.table.gz (62/52/fopen): adding to final database dump
+0031.143 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfblocks7.table.tmpr0.gz (63/52/fopen): adding to final database dump
+0031.149 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfblocks7.table.gz (64/52/fopen): adding to final database dump
+0031.155 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfconfig.table.tmpr1001.gz (65/52/fopen): adding to final database dump
+0031.163 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfconfig.table.gz (66/52/fopen): adding to final database dump
+0031.168 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfcrawlers.table.tmpr1001.gz (67/52/fopen): adding to final database dump
+0031.174 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfcrawlers.table.gz (68/52/fopen): adding to final database dump
+0031.179 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wffilechanges.table.tmpr1.gz (69/52/fopen): adding to final database dump
+0031.185 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wffilechanges.table.gz (70/52/fopen): adding to final database dump
+0031.191 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wffilemods.table.gz (71/52/fopen): adding to final database dump
+0031.203 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfhits.table.tmpr6983.gz (72/52/fopen): adding to final database dump
+0031.210 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfhits.table.gz (73/52/fopen): adding to final database dump
+0031.216 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfhoover.table.tmpr0.gz (74/52/fopen): adding to final database dump
+0031.221 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfhoover.table.gz (75/52/fopen): adding to final database dump
+0031.227 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfissues.table.tmpr158.gz (76/52/fopen): adding to final database dump
+0031.232 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfissues.table.gz (77/52/fopen): adding to final database dump
+0031.242 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfknownfilelist.table.gz (78/52/fopen): adding to final database dump
+0031.248 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wflivetraffichuman.table.tmpr1.gz (79/52/fopen): adding to final database dump
+0031.262 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wflivetraffichuman.table.gz (80/52/fopen): adding to final database dump
+0031.269 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wflocs.table.tmpr1001.gz (81/52/fopen): adding to final database dump
+0031.284 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wflocs.table.gz (82/52/fopen): adding to final database dump
+0031.290 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wflogins.table.tmpr1481.gz (83/52/fopen): adding to final database dump
+0031.296 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wflogins.table.gz (84/52/fopen): adding to final database dump
+0031.302 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (85/52/fopen): adding to final database dump
+0031.308 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfls_2fa_secrets.table.gz (86/52/fopen): adding to final database dump
+0031.314 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfls_role_counts.table.tmpr1.gz (87/52/fopen): adding to final database dump
+0031.319 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfls_role_counts.table.gz (88/52/fopen): adding to final database dump
+0031.325 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfls_settings.table.tmpr1001.gz (89/52/fopen): adding to final database dump
+0031.331 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfls_settings.table.gz (90/52/fopen): adding to final database dump
+0031.336 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfnotifications.table.tmpr1001.gz (91/52/fopen): adding to final database dump
+0031.341 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfnotifications.table.gz (92/52/fopen): adding to final database dump
+0031.346 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfpendingissues.table.tmpr0.gz (93/52/fopen): adding to final database dump
+0031.351 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfpendingissues.table.gz (94/52/fopen): adding to final database dump
+0031.356 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfreversecache.table.tmpr1001.gz (95/52/fopen): adding to final database dump
+0031.361 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfreversecache.table.gz (96/52/fopen): adding to final database dump
+0031.366 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfsnipcache.table.tmpr0.gz (97/52/fopen): adding to final database dump
+0031.372 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfsnipcache.table.gz (98/52/fopen): adding to final database dump
+0031.377 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfstatus.table.tmpr47897.gz (99/52/fopen): adding to final database dump
+0031.386 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wfstatus.table.gz (100/52/fopen): adding to final database dump
+0031.391 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wftrafficrates.table.tmpr1.gz (101/52/fopen): adding to final database dump
+0031.396 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db-table-wp_wftrafficrates.table.gz (102/52/fopen): adding to final database dump
+0031.403 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db.gz: finished writing out complete database file (2489.8 KB)
+0031.449 (0) Total database tables backed up: 52 (backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db.gz, size: 2549620, sha1: a53c506356dc5d0d547a18da3a1f818c7140b1a5, sha256: 1eda2e5b4224ab2e9a077ec53290150b5f881a505c30bf6c1460a5c5fc54747e)
+0031.472 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip: plugins: This file has already been successfully uploaded
+0031.478 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip: themes: This file has already been successfully uploaded
+0031.486 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-uploads.zip: uploads: This file has already been successfully uploaded
+0031.492 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-others.zip: others: This file has already been successfully uploaded
+0031.497 (0) backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db.gz: db: This file has not yet been successfully uploaded: will queue
+0031.502 (0) Saving backup history. Total backup size: 104.3 MB
+0031.512 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0031.526 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0031.531 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-fa9c0cda3ecb3565dacba44aa2b3ab19)
+0031.805 (0) Google Drive: quota usage: used=5058.8 MB, total=204800 MB, available=199741.2 MB
+0031.812 (0) Google Drive: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db.gz: Attempting to upload to Google Drive (into folder id: 1jx8dBIqSB7a6H0S3agn1jTwnbshPkix6)
+0032.300 (0) Googledrive chunked upload: 41.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 17.6 / 2)
+0033.385 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0033.399 (0) Google Drive: OK: Archive backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db.gz uploaded in 1.58 seconds
+0033.405 (0) Recording as successfully uploaded: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db.gz
+0033.417 (0) Deleting local file: backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-db.gz: OK
+0033.428 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0033.434 (0) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1677043320
+0033.439 (0) Number of backup sets in history: 6; groups (db): 1
+0033.445 (0) Examining (for databases) backup set with group_id=0, nonce=0dbf6ee21d91, datestamp=1679606876 (Mar 23 2023 21:27:56)
+0033.450 (0) This backup set is the backup set just made, so will not be deleted.
+0033.450 (0) Examining (for databases) backup set with group_id=0, nonce=fe68054591ed, datestamp=1679479326 (Mar 22 2023 10:02:06)
+0033.450 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.455 (0) Examining (for databases) backup set with group_id=0, nonce=3aa919baa6a6, datestamp=1679392926 (Mar 21 2023 10:02:06)
+0033.455 (0) 1679392926: db: this set includes a database (backup_2023-03-21-1002_Tackle_Auction_3aa919baa6a6-db.gz); db count is now 2
+0033.455 (0) 1679392926: db: over retain limit (2); will delete this database
+0033.455 (0) Delete file: backup_2023-03-21-1002_Tackle_Auction_3aa919baa6a6-db.gz, service=googledrive
+0034.506 (0) Google Drive: backup_2023-03-21-1002_Tackle_Auction_3aa919baa6a6-db.gz: Deletion failed: file was not found
+0034.517 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0034.522 (0) Examining (for databases) backup set with group_id=0, nonce=7edc4f3b3340, datestamp=1677524655 (Feb 27 2023 19:04:15)
+0034.522 (0) This backup set (1677524655) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0034.522 (0) Examining (for databases) backup set with group_id=0, nonce=b18cbcc164c7, datestamp=1677007106 (Feb 21 2023 19:18:26)
+0034.522 (0) This backup set (1677007106) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0034.522 (0) Number of backup sets in history: 6; groups (files): 1
+0034.527 (0) Examining (for files) backup set with nonce=0dbf6ee21d91, datestamp=1679606876 (Mar 23 2023 21:27:56)
+0034.527 (0) This backup set is the backup set just made, so will not be deleted.
+0034.532 (0) This backup set is the backup set just made, so will not be deleted.
+0034.533 (0) This backup set is the backup set just made, so will not be deleted.
+0034.534 (0) This backup set is the backup set just made, so will not be deleted.
+0034.535 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0034.539 (0) Examining (for files) backup set with nonce=fe68054591ed, datestamp=1679479326 (Mar 22 2023 10:02:06)
+0034.540 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0034.541 (0) Examining (for files) backup set with nonce=3aa919baa6a6, datestamp=1679392926 (Mar 21 2023 10:02:06)
+0034.541 (0) plugins: over retain limit (2); will delete this file entity
+0034.541 (0) themes: over retain limit (2); will delete this file entity
+0034.541 (0) uploads: over retain limit (2); will delete this file entity
+0034.541 (0) others: over retain limit (2); will delete this file entity
+0034.541 (0) Delete file: backup_2023-03-21-1002_Tackle_Auction_3aa919baa6a6-plugins.zip, service=googledrive
+0034.545 (0) Delete file: backup_2023-03-21-1002_Tackle_Auction_3aa919baa6a6-themes.zip, service=googledrive
+0034.550 (0) Delete file: backup_2023-03-21-1002_Tackle_Auction_3aa919baa6a6-uploads.zip, service=googledrive
+0034.556 (0) Delete file: backup_2023-03-21-1002_Tackle_Auction_3aa919baa6a6-others.zip, service=googledrive
+0035.045 (0) Google Drive: backup_2023-03-21-1002_Tackle_Auction_3aa919baa6a6-plugins.zip: Deletion failed: file was not found
+0035.051 (0) Google Drive: backup_2023-03-21-1002_Tackle_Auction_3aa919baa6a6-themes.zip: Deletion failed: file was not found
+0035.057 (0) Google Drive: backup_2023-03-21-1002_Tackle_Auction_3aa919baa6a6-uploads.zip: Deletion failed: file was not found
+0035.062 (0) Google Drive: backup_2023-03-21-1002_Tackle_Auction_3aa919baa6a6-others.zip: Deletion failed: file was not found
+0035.072 (0) This backup set is now empty; will remove from history
+0035.077 (0) Deleting log file (log.3aa919baa6a6.txt)
+0035.082 (0) Examining (for files) backup set with nonce=7edc4f3b3340, datestamp=1677524655 (Feb 27 2023 19:04:15)
+0035.082 (0) This backup set (1677524655) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0035.082 (0) This backup set (1677524655) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0035.082 (0) This backup set (1677524655) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0035.082 (0) This backup set (1677524655) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0035.082 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.087 (0) Examining (for files) backup set with nonce=b18cbcc164c7, datestamp=1677007106 (Feb 21 2023 19:18:26)
+0035.087 (0) This backup set (1677007106) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0035.087 (0) This backup set (1677007106) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0035.087 (0) This backup set (1677007106) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0035.087 (0) This backup set (1677007106) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0035.087 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.089 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0035.102 (0) Resume backup (0dbf6ee21d91, 0): finish run
+0035.115 (0) Decremented the semaphore (fd) by 1
+0035.122 (0) Semaphore (fd) unlocked
+0035.131 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0035.146 (0) Deleting zip manifest (backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-plugins.zip.list.tmp)
+0035.155 (0) Deleting zip manifest (backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-themes.zip.list.tmp)
+0035.171 (0) Deleting zip manifest (backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-uploads.zip.list.tmp)
+0035.177 (0) Deleting zip manifest (backup_2023-03-23-2127_Tackle_Auction_0dbf6ee21d91-others.zip.list.tmp)
+0035.182 (0) Fetching RSS news feed
+0036.014 (0) Fetched RSS news feed; result is a: SimplePie
+0036.027 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: info@...
+0036.068 (0) The backup apparently succeeded and is now complete
