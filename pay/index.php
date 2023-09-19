@@ -7,8 +7,8 @@ use PayPal\Api\PayoutSenderBatchHeader;
 use PayPal\Api\PayoutItem;
 
 // PayPal API credentials
-$clientID = 'YOUR_CLIENT_ID';
-$clientSecret = 'YOUR_CLIENT_SECRET';
+$clientID = 'AS_Fm2enO3-tFCWyEAbQ4A_BUPN9Wyv7r5lV3qR5bX9d9-8K7-gDuILoE-Hqb1K6yHClnbNEnfsmFxh5';
+$clientSecret = 'EDWYCK7vhoGl8Uqfv_IjbEDVPyiqi1Vey1kfTVQOPW8wikVXSWpEaENQWlyheQucy3dugbYIfnHaIgGI';
 
 // PayPal SDK configuration
 $apiContext = new \PayPal\Rest\ApiContext(
